@@ -1,6 +1,11 @@
 # XcodeGhostChecker
 Xcode Ghost Checker.
 
+![](https://github.com/qzs21/XcodeGhostChecker/raw/master/Snapshot/snapshot.png)
+
+# Release
+不想编译的就下载这个：[XcodeGhostChecker.zip](https://github.com/qzs21/XcodeGhostChecker/raw/master/Release/XcodeGhostChecker.zip)
+
 # 解决的问题
 自己开发的应用已经提交到`AppStore`了，我提交了很多个版本，要一个个去安装抓网络包才能检测我的应用有没有包含`XcodeGhost`代码。幸好我手头有上线前备份的`ipa`包，使用`XcodeGhostChecker`瞬间就能帮你检测所有`ipa`包！
 
