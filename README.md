@@ -30,3 +30,6 @@ Xcode Ghost Checker.
 * 优化界面上的显示，特别是等待指示器
 * 可以优化解压，不需要解压所有文件
 * 对加壳应用的检测方式需要优化（了解加壳后的二进制结构）
+
+# 感谢
+再次感谢[class-dump](https://github.com/nygard/class-dump)
