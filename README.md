@@ -25,6 +25,12 @@ Xcode Ghost Checker.
 * 查找B中是否包含样本A来判断`ipa`包是否包含`XcodeGhost`代码。
 * 从第三方平台下载未加壳的 `网易云音乐` `联通客户端`，运行工具验证后证明工具有效！
 
+# Build
+* 安装[CocoaPods](http://cocoapods.org/)
+* 进入`Code/`目录
+* 执行明令: pod update
+* 打开`XcodeGhostChecker.xcworkspace`进行编译
+
 # TODO
 * 对`OS X`应用开发不是很熟悉，搞界面浪费了很多时间，要花点时间熟悉
 * 优化界面上的显示，特别是等待指示器
