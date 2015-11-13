@@ -12,10 +12,10 @@
 		B0C6A7FB1BAEEC8600DE8291 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C6A7FA1BAEEC8600DE8291 /* ViewController.m */; };
 		B0C6A7FD1BAEEC8600DE8291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C6A7FC1BAEEC8600DE8291 /* Assets.xcassets */; };
 		B0C6A8001BAEEC8600DE8291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C6A7FE1BAEEC8600DE8291 /* Main.storyboard */; };
-		B0C6A8081BAEEEBF00DE8291 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0C6A8071BAEEEBF00DE8291 /* Resource.bundle */; settings = {ASSET_TAGS = (); }; };
-		B0C6A80B1BAEEF0600DE8291 /* SSXcodeGhostChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C6A80A1BAEEF0600DE8291 /* SSXcodeGhostChecker.m */; settings = {ASSET_TAGS = (); }; };
-		B0C6A80E1BAF10DB00DE8291 /* SSXcodeGhostCheckerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C6A80D1BAF10DB00DE8291 /* SSXcodeGhostCheckerInfo.m */; settings = {ASSET_TAGS = (); }; };
-		B0C6A8111BAF191C00DE8291 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C6A8101BAF191C00DE8291 /* WindowController.m */; settings = {ASSET_TAGS = (); }; };
+		B0C6A8081BAEEEBF00DE8291 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0C6A8071BAEEEBF00DE8291 /* Resource.bundle */; };
+		B0C6A80B1BAEEF0600DE8291 /* SSXcodeGhostChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C6A80A1BAEEF0600DE8291 /* SSXcodeGhostChecker.m */; };
+		B0C6A80E1BAF10DB00DE8291 /* SSXcodeGhostCheckerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C6A80D1BAF10DB00DE8291 /* SSXcodeGhostCheckerInfo.m */; };
+		B0C6A8111BAF191C00DE8291 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C6A8101BAF191C00DE8291 /* WindowController.m */; };
 		C2F62BAC513FB8EF4EBED05C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AB4FB7501B55058B102C65 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -130,6 +130,7 @@
 				B0C6A7ED1BAEEC8600DE8291 /* Frameworks */,
 				B0C6A7EE1BAEEC8600DE8291 /* Resources */,
 				C9BB817BCBA8EBE90DFDF1A2 /* Copy Pods Resources */,
+				573AFFA0CB708DEEF936A42C /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,6 +200,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		573AFFA0CB708DEEF936A42C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C9BB817BCBA8EBE90DFDF1A2 /* Copy Pods Resources */ = {
