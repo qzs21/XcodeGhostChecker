@@ -31,6 +31,9 @@ Xcode Ghost Checker.
 * 执行明令: pod update
 * 打开`XcodeGhostChecker.xcworkspace`进行编译
 
+# Test
+`Release/XcodeGhostSample.ipa`文件是一个中毒的样本，可以可以用来测试校验
+
 # TODO
 * 对`OS X`应用开发不是很熟悉，搞界面浪费了很多时间，要花点时间熟悉
 * 优化界面上的显示，特别是等待指示器
